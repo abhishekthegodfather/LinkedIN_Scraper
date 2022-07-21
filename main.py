@@ -7,10 +7,10 @@ driver = webdriver.Firefox(executable_path=r'C:\Users\abhis\OneDrive\Desktop\scr
 driver.get("https://www.linkedin.com")
 
 user_box = driver.find_element(By.NAME,"session_key")
-user_box.send_keys("abhishekbiswas772@gmail.com")
+user_box.send_keys("xyz@gmail.com")
 
 user_pass = driver.find_element(By.NAME, "session_password")
-user_pass.send_keys("194dcf8606305e7ac14cded073506f2b682d353ff893584a8dc23aacd94c10c6")
+user_pass.send_keys("your_password")
 
 login_pass = driver.find_element(By.CLASS_NAME, "sign-in-form__submit-button")
 login_pass.click()
